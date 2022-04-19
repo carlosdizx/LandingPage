@@ -1,10 +1,10 @@
 <template>
-  <v-app-bar absolute color="primary" dark>
+  <v-app-bar max-height="100" color="primary" dark>
     <v-img
       class="mx-5"
       src="@/assets/logo.png"
-      max-width="60"
-      max-height="60"
+      max-width="65"
+      max-height="65"
       alt="logo"
     />
     <v-toolbar-title>Inventas</v-toolbar-title>
