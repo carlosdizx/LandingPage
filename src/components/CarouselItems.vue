@@ -2,9 +2,9 @@
   <v-card>
     <v-carousel>
       <v-carousel-item :key="i" v-for="i in 5">
-        <v-layout row>
+        <v-layout>
           <v-flex xs4 :key="j" v-for="j in 3">
-            <v-card>
+            <v-card class="py-9">
               <v-card-title> Titulo {{ j }} </v-card-title>
               <v-card-text>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
